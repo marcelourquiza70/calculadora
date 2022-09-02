@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title>
+        Calculadora
+    </title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Calculadora
+        </h1>
+        <div class="calculadora">
+          <table>
+            <tr>
+              <td id="resultado" colspan="4">0</td>
+            </tr>
+            <tr>
+              <td id="7"><button onclick="digitType('7')">7</button></td>
+              <td id="8"><button onclick="digitType('8')">8</button></td>
+              <td id="9"><button onclick="digitType('9')">9</button></td>
+              <td id="/"><button onclick="digitType('/')">/</button></td>
+            </tr>
+            <tr>
+              <td id="4"><button onclick="digitType('4')">4</button></td>
+              <td id="5"><button onclick="digitType('5')">5</button></td>
+              <td id="6"><button onclick="digitType('6')">6</button></td>
+              <td id="*"><button onclick="digitType('*')">*</button></td>
+            </tr>
+            <tr>
+              <td id="1"><button onclick="digitType('1')">1</button></td>
+              <td id="2"><button onclick="digitType('2')">2</button></td>
+              <td id="3"><button onclick="digitType('3')">3</button></td>
+              <td id="-"><button onclick="digitType('-')">-</button></td>
+            </tr>
+            <tr>
+              <td id="."><button onclick="digitType('.')">.</button></td>
+              <td id="0"><button onclick="digitType('0')">0</button></td>
+              <td id="="><button onclick="result()">=</button></td>
+              <td id="+"><button onclick="digitType('+')">+</button></td>            </tr>
+            <tr>
+              <td id="C" colspan="4"><button onclick="C()">C</button></td>
+            </tr>
+          </table>
+        </div>
+    </div>
+    
+  <script src="index.js"></script>
+</body>
+
+</html>
